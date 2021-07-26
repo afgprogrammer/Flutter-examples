@@ -6,7 +6,7 @@ class BorderedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 3, left: 3),
+      padding: EdgeInsets.only(top: 5, left: 5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(50),
         border: Border(
