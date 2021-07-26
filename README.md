@@ -11,6 +11,7 @@ flutter run
 
 ## Screenshots
 
+<img src="assets/screenshots/bordered-button.png" />
 
 ## Links
 
