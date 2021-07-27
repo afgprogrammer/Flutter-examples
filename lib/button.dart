@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class BorderedButton extends StatelessWidget {
-  const BorderedButton({ Key? key }) : super(key: key);
+  const BorderedButton({ Key? key, required this.text, required this.onPress }) : super(key: key);
+
+  final String text;
+  final Function onPress;
 
   @override
   Widget build(BuildContext context) {
@@ -19,13 +22,15 @@ class BorderedButton extends StatelessWidget {
       child: MaterialButton(
         minWidth: double.infinity,
         height: 60,
-        onPressed: () {},
+        onPressed: () {
+          onPress();
+        },
         color: Colors.yellowAccent,
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50)
         ),
-        child: Text("Sign up", style: TextStyle(
+        child: Text(text, style: TextStyle(
           fontWeight: FontWeight.w600, 
           fontSize: 18
         ),),
