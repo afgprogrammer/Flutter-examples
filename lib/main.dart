@@ -1,4 +1,4 @@
-import 'package:example/button.dart';
+import 'package:example/fade_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
@@ -14,28 +14,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       body: Container(
+        width: double.infinity,
+        height: double.infinity,
         padding: EdgeInsets.all(20),
-        color: Colors.orangeAccent,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              height: 200,
-              child: Text("How to make a button like this", 
-              textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.white, 
-                  fontSize: 44, 
-                  fontWeight: FontWeight.bold,
-                )
-              )
-            ),
-            SizedBox(height: 50,),
-            BorderedButton()
-          ],
-        )
-      )
+        color: Color(0xff8186F0),
+        child: Center(child: FadeAnimation()),
+      ),
     );
   }
 }
