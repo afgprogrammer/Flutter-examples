@@ -1,3 +1,4 @@
+import 'package:example/animated_container.dart';
 import 'package:example/fade_animation.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class HomePage extends StatelessWidget {
         height: double.infinity,
         padding: EdgeInsets.all(20),
         color: Color(0xff8186F0),
-        child: Center(child: FadeAnimation()),
+        child: Center(child: Box()),
       ),
     );
   }
