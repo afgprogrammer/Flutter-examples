@@ -11,7 +11,11 @@ flutter run
 
 ## Screenshots
 
+### Bordered Button
 <img src="assets/screenshots/bordered-button.png" />
+
+### Fade Animation with AnimatedOpacity
+<img src="assets/screenshots/fade-animation.png" />
 
 ## Links
 
