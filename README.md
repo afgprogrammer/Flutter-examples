@@ -17,6 +17,10 @@ flutter run
 ### Fade Animation with AnimatedOpacity
 <img src="assets/screenshots/fade-animation.png" />
 
+
+### Verification Page
+<img src="assets/screenshots/verification.png" />
+
 ## Links
 
 * [Website](https://afgprogrammer.com)
