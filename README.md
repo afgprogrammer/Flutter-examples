@@ -21,6 +21,9 @@ flutter run
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
 
+### Skeleton Loading Page
+<img src="assets/screenshots/skeleton-loading.png" />
+
 ## Links
 
 * [Website](https://afgprogrammer.com)
