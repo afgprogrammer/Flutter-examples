@@ -11,6 +11,9 @@ flutter run
 
 ## Screenshots
 
+### Custom BottomnavigationBar
+<img src="assets/screenshots/bottom-navigation-bar.png" />
+
 ### Bordered Button
 <img src="assets/screenshots/bordered-button.png" />
 
