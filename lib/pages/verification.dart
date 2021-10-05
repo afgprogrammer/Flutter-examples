@@ -10,41 +10,32 @@ class Verificatoin extends StatefulWidget {
 }
 
 class _VerificatoinState extends State<Verificatoin> {
-  bool _onEditing = true;
   bool _isResendAgain = false;
   bool _isVerified = false;
   bool _isLoading = false;
 
   String _code = '';
 
-  @override
-  void initState() {
-    super.initState();   
-  }
-
   late Timer _timer;
   int _start = 60;
 
-  void startTimer() {
-     setState(() {
+  void resend() {
+    setState(() {
       _isResendAgain = true;
     });
 
-    const oneSec = const Duration(seconds: 1);
-    _timer = new Timer.periodic(
-      oneSec,
-      (Timer timer) {
-        setState(() {
-          if (_start == 0) {
-            _start = 60;
-            _isResendAgain = false;
-            timer.cancel();
-          } else {
-            _start--;
-          }
-        });
-      },
-    );
+    const oneSec = Duration(seconds: 1);
+    _timer = new Timer.periodic(oneSec, (timer) { 
+      setState(() {
+        if (_start == 0) {
+          _start = 60;
+          _isResendAgain = false;
+          timer.cancel();
+        } else {
+          _start--;
+        }
+      });
+    });
   }
 
   verify() {
@@ -52,27 +43,24 @@ class _VerificatoinState extends State<Verificatoin> {
       _isLoading = true;
     });
 
-    const oneSec = const Duration(milliseconds: 1000);
-    _timer = new Timer.periodic(
-      oneSec,
-      (Timer timer) {
-        setState(() {
-          _isLoading = false;
-          _isVerified = true;
-        });
-      },
-    );
+    const oneSec = Duration(milliseconds: 10000);
+    _timer = new Timer.periodic(oneSec, (timer) { 
+      setState(() {
+        _isLoading = false;
+        _isVerified = true;
+      });
+    });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 20),
           height: MediaQuery.of(context).size.height,
           width: double.infinity,
-          padding: EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -92,69 +80,59 @@ class _VerificatoinState extends State<Verificatoin> {
                   ),
                 ),
               ),
-              SizedBox(height: 80),
+              SizedBox(height: 80,),
               Text("Verification", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
               SizedBox(height: 30,),
               Text("Please enter the 6 digit code sent to \n +93 706-399-999", 
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 16, height: 1.5, color: Colors.grey.shade500),),
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 16, color: Colors.grey.shade500, height: 1.5),),
               SizedBox(height: 30,),
               VerificationCode(
-                textStyle: TextStyle(fontSize: 20.0, color: Colors.black),
+                length: 6,
+                textStyle: TextStyle(fontSize: 20),
                 underlineColor: Colors.blueAccent,
                 keyboardType: TextInputType.number,
-                length: 6,
-                onCompleted: (String value) {
+                onCompleted: (value) {
                   setState(() {
                     _code = value;
                   });
-                },
-                onEditing: (bool value) {
-                  setState(() {
-                    _onEditing = value;
-                  });
-                },
+                }, 
+                onEditing: (value) {}
               ),
               SizedBox(height: 20,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Don't resive the OTP?", 
-                  style: TextStyle(fontSize: 14, height: 1.5, color: Colors.grey.shade500),),
+                  Text("Don't resive the OTP?", style: TextStyle(fontSize: 14, color: Colors.grey.shade500),),
                   TextButton(
                     onPressed: () {
                       if (_isResendAgain) return;
-                      startTimer();
+                      resend();
                     }, 
-                    child: Text(_isResendAgain ? 'Try again in ' + _start.toString() : "Resend", 
-                      style: TextStyle(fontSize: 14, height: 1.5, color: Colors.blueAccent),)
-                  ),
+                    child: Text(_isResendAgain ? "Try again in " + _start.toString() : "Resend", style: TextStyle(color: Colors.blueAccent),)
+                  )
                 ],
               ),
-              SizedBox(height:50,),
+              SizedBox(height: 50,),
               MaterialButton(
-                disabledColor: Colors.grey.shade300,
-                height: 50,
+                disabledColor: Colors.grey,
                 onPressed: _code.length < 6 ? null : () { verify(); },
-                minWidth: double.infinity,
                 color: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(5)
-                ),
+                minWidth: double.infinity,
+                height: 50,
                 child: _isLoading ? Container(
                   width: 20,
                   height: 20,
                   child: CircularProgressIndicator(
-                    backgroundColor: Colors.white, 
+                    backgroundColor: Colors.white,
                     strokeWidth: 3,
                     color: Colors.black,
                   ),
                 ) : _isVerified ? Icon(Icons.check_circle, color: Colors.white, size: 30,) : Text("Verify", style: TextStyle(color: Colors.white),),
-              ),
-            ],
-          ),
+              )
+          ],)
         ),
-      ),
+      )
     );
   }
 }
