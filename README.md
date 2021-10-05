@@ -27,6 +27,9 @@ flutter run
 ### Skeleton Loading Page
 <img src="assets/screenshots/skeleton-loading.png" />
 
+### Staggered Grid View Page
+<img src="assets/screenshots/staggered-gridview.png" />
+
 ## Links
 
 * [Website](https://afgprogrammer.com)
