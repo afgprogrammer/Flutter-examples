@@ -30,6 +30,9 @@ flutter run
 ### Staggered Grid View Page
 <img src="assets/screenshots/staggered-gridview.png" />
 
+### Light Switch Page
+<img src="assets/screenshots/light-switch.png" />
+
 ## Links
 
 * [Website](https://afgprogrammer.com)
