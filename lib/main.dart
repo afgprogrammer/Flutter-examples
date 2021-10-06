@@ -1,11 +1,11 @@
 import 'package:example/pages/animated_container.dart';
-import 'package:example/pages/staggered_gridview.dart';
+import 'package:example/pages/light_switch.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: StaggeredGridViewExample(),
+    home: LightSwitch(),
   )
 );
 
