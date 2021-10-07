@@ -33,6 +33,7 @@ dependencies:
   shimmer: ^2.0.0
   flashy_tab_bar: ^0.0.3
   flutter_staggered_grid_view: ^0.4.0
+  iconsax: ^0.0.8
 
 dev_dependencies:
   flutter_test:
