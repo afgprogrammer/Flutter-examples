@@ -1,11 +1,11 @@
 import 'package:example/pages/animated_container.dart';
-import 'package:example/pages/login.dart';
+import 'package:example/pages/no_connection.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: LoginPage(),
+    home: NoConnection(),
   )
 );
 
