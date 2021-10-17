@@ -14,6 +14,9 @@ flutter run
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
 
+### Github Users Page
+<img src="assets/screenshots/github-users-page.png" />
+
 ### Staggered Grid View Page
 <img src="assets/screenshots/staggered-gridview.png" />
 
