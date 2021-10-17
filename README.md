@@ -1,6 +1,6 @@
 ## Flutter examples
 
-Let's work an example with Flutter widgets
+Here you can find some Flutter examples.
 
 ## Development Setup
 Clone the repository and run the following commands:
