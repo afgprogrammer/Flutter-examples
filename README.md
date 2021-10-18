@@ -1,6 +1,6 @@
 ## Flutter examples
 
-Let's work an example with Flutter widgets
+Here you can find some Flutter examples.
 
 ## Development Setup
 Clone the repository and run the following commands:
@@ -13,6 +13,9 @@ flutter run
 
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
+
+### Github Users Page
+<img src="assets/screenshots/github-users-page.png" />
 
 ### Staggered Grid View Page
 <img src="assets/screenshots/staggered-gridview.png" />
