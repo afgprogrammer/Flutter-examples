@@ -20,6 +20,9 @@ flutter run
 ### Concentric Transition Page
 <img src="assets/screenshots/concentric-page.jpg" />
 
+### Odometer Example Page
+<img src="assets/screenshots/odometer-example.jpg" />
+
 ### Staggered Grid View Page
 <img src="assets/screenshots/staggered-gridview.png" />
 
