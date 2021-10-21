@@ -37,6 +37,7 @@ dependencies:
   dio: ^4.0.0
   url_launcher: ^6.0.12
   concentric_transition: ^1.0.1
+  odometer: ^2.1.0
 
 dev_dependencies:
   flutter_test:
