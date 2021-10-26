@@ -1,12 +1,13 @@
 import 'package:example/pages/animated_container.dart';
-import 'package:example/pages/github_users.dart';
-import 'package:example/pages/no_connection.dart';
+import 'package:example/pages/new_collection.dart';
+import 'package:example/pages/staggered_gridview.dart';
+import 'package:example/pages/verification.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: GithubUsers(),
+    home: NewCollection(),
   )
 );
 
