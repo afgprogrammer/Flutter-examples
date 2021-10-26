@@ -20,6 +20,9 @@ flutter run
 ### Concentric Transition Page
 <img src="assets/screenshots/concentric-page.jpg" />
 
+### Vertical Card Pager Page
+<img src="assets/screenshots/vertical-card-pager.png" />
+
 ### Odometer Example Page
 <img src="assets/screenshots/odometer-example.jpg" />
 
