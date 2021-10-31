@@ -11,6 +11,9 @@ flutter run
 
 ## Screenshots
 
+### Collection Page
+<img src="assets/screenshots/collection-page.png" />
+
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
 
