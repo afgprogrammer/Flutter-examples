@@ -1,13 +1,11 @@
 import 'package:example/pages/animated_container.dart';
-import 'package:example/pages/new_collection.dart';
-import 'package:example/pages/staggered_gridview.dart';
-import 'package:example/pages/verification.dart';
+import 'package:example/pages/register_with_phone.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: NewCollection(),
+    home: RegisterWithPhoneNumber(),
   )
 );
 
