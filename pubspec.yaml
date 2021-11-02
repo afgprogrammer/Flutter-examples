@@ -41,6 +41,7 @@ dependencies:
   flutter_youtube_view: ^2.0.2
   flutter_verification_code: ^1.1.0
   liquid_swipe: ^2.1.0
+  intl_phone_number_input: ^0.7.0+2
 
 dev_dependencies:
   flutter_test:
