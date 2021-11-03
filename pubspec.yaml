@@ -42,6 +42,7 @@ dependencies:
   flutter_verification_code: ^1.1.0
   liquid_swipe: ^2.1.0
   intl_phone_number_input: ^0.7.0+2
+  elastic_drawer: ^2.0.1
 
 dev_dependencies:
   flutter_test:
