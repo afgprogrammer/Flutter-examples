@@ -11,6 +11,9 @@ flutter run
 
 ## Screenshots
 
+### Register with Phone Page
+<img src="assets/screenshots/register-with-phone.png" />
+
 ### Collection Page
 <img src="assets/screenshots/collection-page.png" />
 
