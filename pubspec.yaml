@@ -43,6 +43,9 @@ dependencies:
   liquid_swipe: ^2.1.0
   intl_phone_number_input: ^0.7.0+2
   elastic_drawer: ^2.0.1
+  bouncing_widget: ^2.0.0
+  bottom_navy_bar: ^6.0.0
+  salomon_bottom_bar: ^3.1.0
 
 dev_dependencies:
   flutter_test:
