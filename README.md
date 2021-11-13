@@ -14,11 +14,17 @@ flutter run
 ### Register with Phone Page
 <img src="assets/screenshots/register-with-phone.png" />
 
+### Discover Page
+<img src="assets/screenshots/discover-page.png" />
+
 ### Collection Page
 <img src="assets/screenshots/collection-page.png" />
 
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
+
+### Squid Game
+<img src="assets/screenshots/squid-game.png" />
 
 ### Github Users Page
 <img src="assets/screenshots/github-users-page.png" />
