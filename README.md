@@ -17,6 +17,9 @@ flutter run
 ### Discover Page
 <img src="assets/screenshots/discover-page.png" />
 
+### Design Tools
+<img src="assets/screenshots/design-tools.png" />
+
 ### Collection Page
 <img src="assets/screenshots/collection-page.png" />
 
