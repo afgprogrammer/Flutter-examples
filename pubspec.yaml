@@ -46,6 +46,8 @@ dependencies:
   bouncing_widget: ^2.0.0
   bottom_navy_bar: ^6.0.0
   salomon_bottom_bar: ^3.1.0
+  avatar_glow: ^2.0.2
+  carousel_slider: ^4.0.0
 
 dev_dependencies:
   flutter_test:
