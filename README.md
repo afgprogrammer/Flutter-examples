@@ -26,6 +26,9 @@ flutter run
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
 
+### Tea Page
+<img src="assets/screenshots/tea-page.png" />
+
 ### Squid Game
 <img src="assets/screenshots/squid-game.png" />
 
