@@ -26,6 +26,9 @@ flutter run
 ### Verification Page
 <img src="assets/screenshots/verification.png" />
 
+### Dancing Man
+<img src="assets/screenshots/dancing-man.png" />
+
 ### Tea Page
 <img src="assets/screenshots/tea-page.png" />
 
