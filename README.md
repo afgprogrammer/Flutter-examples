@@ -14,6 +14,9 @@ flutter run
 ### Register with Phone Page
 <img src="assets/screenshots/register-with-phone.png" />
 
+### Movies List
+<img src="assets/screenshots/movies.png" />
+
 ### Discover Page
 <img src="assets/screenshots/discover-page.png" />
 
