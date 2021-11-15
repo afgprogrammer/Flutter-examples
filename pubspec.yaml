@@ -48,6 +48,7 @@ dependencies:
   salomon_bottom_bar: ^3.1.0
   avatar_glow: ^2.0.2
   carousel_slider: ^4.0.0
+  google_fonts: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/google_fonts/
     # - assets/screenshots/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
