@@ -14,6 +14,9 @@ flutter run
 ### Register with Phone Page
 <img src="assets/screenshots/register-with-phone.png" />
 
+### Login Page
+<img src="assets/screenshots/login-page.png" />
+
 ### Movies List
 <img src="assets/screenshots/movies.png" />
 
@@ -22,6 +25,9 @@ flutter run
 
 ### Design Tools
 <img src="assets/screenshots/design-tools.png" />
+
+### Onboarding 
+<img src="assets/screenshots/learning.png" />
 
 ### Collection Page
 <img src="assets/screenshots/collection-page.png" />
@@ -52,9 +58,6 @@ flutter run
 
 ### Staggered Grid View Page
 <img src="assets/screenshots/staggered-gridview.png" />
-
-### Login Page
-<img src="assets/screenshots/login-page.png" />
 
 ### Light Switch Page
 <img src="assets/screenshots/light-switch.png" />
