@@ -49,6 +49,7 @@ dependencies:
   avatar_glow: ^2.0.2
   carousel_slider: ^4.0.0
   google_fonts: ^2.1.0
+  fl_chart: ^0.40.2
 
 dev_dependencies:
   flutter_test:
