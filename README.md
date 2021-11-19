@@ -11,6 +11,9 @@ flutter run
 
 ## Screenshots
 
+### Wallet
+<img src="assets/screenshots/wallet.png" />
+
 ### Register with Phone Page
 <img src="assets/screenshots/register-with-phone.png" />
 
