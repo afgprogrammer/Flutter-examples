@@ -17,6 +17,9 @@ flutter run
 ### Expenses
 <img src="assets/screenshots/expenses.png" />
 
+### Stocks
+<img src="assets/screenshots/stocks.png" />
+
 ### Register with Phone Page
 <img src="assets/screenshots/register-with-phone.png" />
 
