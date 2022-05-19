@@ -38,7 +38,9 @@ dependencies:
   vertical_card_pager: ^1.5.0
   loading_indicator: ^3.0.2
   animate_do: ^2.0.0
-  flutter_youtube_view: ^2.0.2
+  flutter_youtube_view:
+    git:
+      url: https://github.com/jayjah/flutter_youtube_view.git
   flutter_verification_code: ^1.1.0
   liquid_swipe: ^2.1.0
   intl_phone_number_input: ^0.7.0+2
