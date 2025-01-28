@@ -1,11 +1,11 @@
 import 'package:example/pages/animated_container.dart';
-import 'package:example/pages/register_with_phone.dart';
+import 'package:example/pages/expenses.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(
   MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: RegisterWithPhoneNumber(),
+    home: ExpensesPage(),
   )
 );
 
